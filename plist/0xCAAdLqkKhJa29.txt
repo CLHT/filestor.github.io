@@ -17,9 +17,9 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.apple.ipa</string>
+				<string>com.zto.ztoFamily</string>
 				<key>bundle-version</key>
-				<string>0.0.1</string>
+				<string>4.36.5</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>releaseNotes</key>
