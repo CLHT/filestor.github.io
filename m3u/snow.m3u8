@@ -1,5 +1,5 @@
 #EXTM3U
-#EXT-X-TARGETDURATION:53
-#EXTINF:53.000000,
-https://clht.github.io/filestor.github.io/m3u/0.ts
+#EXT-X-TARGETDURATION:20
+#EXTINF:16.625000,
+https://g.xlzyd.com:9999/hls/189/20231228/16939/plist0.ts
 #EXT-X-ENDLIST
