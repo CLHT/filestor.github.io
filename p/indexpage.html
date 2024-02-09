@@ -49,12 +49,18 @@ https://clht.github.io/filestor.github.io/</p>
 <p>新更新短片：</p>
 
 <p>https://github.com/CLHT/filestor.github.io/assets/130914689/35af135e-d86b-4593-81df-f239788a1f3e</p>
-<video width="750" height="422" poster="2.jpg" controls autoplay>
-<source src="vcompress_52.mp4" type="video/mp4">
-<object data="vcompress_52.mp4" width="750" height="422">
-<embed width="750" height="422" src="vcompress_52.swf">
-</object>
-</video>
+<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"><script>
+<video> id="video" controls></video>
+if (Hls.isSupported()) {
+var video = document.getelementById('video');
+var hls = new Hla();
+hls.loadSource('https://clht.github.io/filestor.github.io/m3u/snow.m3u8");
+hls.attachMedia(video);
+hs.on (Hls.Events.MANIFEST_PARSED, function (){
+    video.play();
+});
+}
+</script>
 <p>往期短片【宿&amp;爱】【校园出行礼仪】</p>
 
 
