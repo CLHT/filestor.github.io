@@ -52,11 +52,11 @@ https://clht.github.io/filestor.github.io/</p>
 <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"><script>
 <video> id="video" controls></video>
 if (Hls.isSupported()) {
-var video = document.getelementById('video');
-var hls = new Hla();
+var video = document.getElementById('video');
+var hls = new Hls();
 hls.loadSource('https://clht.github.io/filestor.github.io/m3u/snow.m3u8");
 hls.attachMedia(video);
-hs.on (Hls.Events.MANIFEST_PARSED, function (){
+hls.on(Hls.Events.MANIFEST_PARSED, function (){
     video.play();
 });
 }
